@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "Driving License Test",
+    "language": "Language",
+    "loading": "Loading Application...",
+    "error": "Error Occurred"
+  },
+  "navigation": {
+    "home": "Home",
+    "browse": "Browse Questions",
+    "exam": "Practice Exam",
+    "favorites": "Favorites",
+    "mistakes": "My Mistakes",
+    "settings": "Settings",
+    "question_detail": "Question Details",
+    "exam_result": "Exam Results"
+  },
+  "home": {
+    "welcome": "Welcome to Driving License Test",
+    "description": "Prepare for your driving license test with our comprehensive question bank",
+    "start_practice": "Start Practice",
+    "start_exam": "Start Exam",
+    "browse_questions": "Browse Questions",
+    "view_favorites": "View Favorites",
+    "view_mistakes": "View Mistakes"
+  },
+  "exam": {
+    "title": "Practice Exam",
+    "question": "Question",
+    "of": "of",
+    "next": "Next",
+    "submit": "Submit",
+    "time_remaining": "Time Remaining",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "result": "Result",
+    "correct_answers": "Correct Answers",
+    "score": "Score",
+    "review": "Review Answers",
+    "try_again": "Try Again",
+    "back_to_home": "Back to Home"
+  },
+  "question": {
+    "true": "True",
+    "false": "False",
+    "add_to_favorites": "Add to Favorites",
+    "remove_from_favorites": "Remove from Favorites",
+    "detail": "Question Details",
+    "loading": "Loading...",
+    "not_found": "Question not found",
+    "answers": "Answers",
+    "correct": "Correct"
+  },
+  "categories": {
+    "all": "All Categories",
+    "traffic_rules": "Traffic Rules",
+    "traffic_signs": "Traffic Signs",
+    "vehicle_technical": "Vehicle Technical",
+    "emergency": "Emergency Situations",
+    "first_aid": "First Aid"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "exam_time": "Exam Time",
+    "exam_questions": "Number of Questions in Exam",
+    "dark_mode": "Dark Mode",
+    "about": "About",
+    "version": "Version",
+    "preferences": "Preferences",
+    "exam": "Exam Settings",
+    "about_app": "About App"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "Chinese",
+    "cs": "Czech",
+    "es": "Spanish"
+  },
+  "favorites": {
+    "empty": "No Favorite Questions",
+    "empty_description": "You have not added any questions to favorites yet",
+    "loading": "Loading favorite questions..."
+  },
+  "mistakes": {
+    "empty": "No Mistake Records",
+    "empty_description": "Great job! You haven't answered any questions incorrectly",
+    "loading": "Loading mistake records...",
+    "attempts": "Wrong attempts: {{count}}"
+  }
+} 

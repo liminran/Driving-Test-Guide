@@ -1,0 +1,37 @@
+# .github/FUNDING.yml
+# 此文件用于告知社区如何支持本项目
+
+# 支持的资助平台配置
+
+# GitHub Sponsors (最多4个用户名)
+github: minli
+
+# PayPal 收款
+paypal: your-paypal-email@example.com
+wise:https://wise.com/pay/me/minl550
+revolute:https://revolut.me/minli
+
+
+# 微信支付（通过自定义链接）
+custom:
+  - name: "微信支付"
+    url: "https://your-domain.com/wechat-pay-qr"  # 替换为您的微信收款二维码链接
+    icon: "https://simpleicons.org/icons/wechat.svg"
+    description: "扫码支持微信支付"
+
+# 支付宝（通过自定义链接）
+  - name: "支付宝"
+    url: "https://your-domain.com/alipay-qr"  # 替换为您的支付宝收款二维码链接
+    icon: "https://simpleicons.org/icons/alipay.svg"
+    description: "扫码支持支付宝"
+
+# Revolut 收款
+  - name: "Revolut"
+    url: "https://revolut.me/your-revolut-username"  # 替换为您的Revolut用户名
+    icon: "https://simpleicons.org/icons/revolut.svg"
+    description: "通过Revolut支持"
+
+# 其他可选支付平台（根据需求添加）
+# patreon: your-patreon-username
+# open_collective: your-open-collective-username
+# ko_fi: your-ko-fi-username

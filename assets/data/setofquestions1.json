@@ -1,0 +1,392 @@
+[
+    {
+        "id": 101,
+        "translations": {
+            "zh": {
+                "question": "什么是可持续交通?",
+                "answers": [
+                    {"text": "一种更有效的出行方式，优先使用私家车", "correct": false},
+                    {"text": "一种更快速的出行方式，无论选择何种出行方式", "correct": false},
+                    {"text": "一种快速、安全、有序的出行方式，强调行人和骑自行车者，为更好的环境质量做贡献", "correct": true}
+                ]
+            },
+            "en": {
+                "question": "What is Sustainable Mobility?",
+                "answers": [
+                    {"text": "A way to travel more effectively, prioritizing the use of private vehicles", "correct": false},
+                    {"text": "A way to travel faster, regardless of the type of mobility chosen", "correct": false},
+                    {"text": "A way to travel quickly, safely and in an orderly manner; emphasizing pedestrians and cyclists and contributing to better environmental quality", "correct": true}
+                ]
+            },
+            "cs": {
+                "question": "Co je udržitelná mobilita?",
+                "answers": [
+                    {"text": "Způsob efektivnější dopravy s důrazem na používání soukromých vozidel", "correct": false},
+                    {"text": "Způsob rychlejšího cestování, bez ohledu na zvolenou formu dopravy", "correct": false},
+                    {"text": "Způsob rychlého, bezpečného a organizovaného cestování s důrazem na chodce a cyklisty, který přispívá k lepší kvalitě životního prostředí", "correct": true}
+                ]
+            },
+            "es": {
+        "question": "¿A qué se denomina Movilidad Sustentable?",
+        "answers": [
+            {"text": "Forma de trasladarnos de manera más efectiva, priorizando el uso del vehículo particular.", "correct": false},
+            {"text": "Forma de trasladarnos de manera más rápida, independientemente del tipo de movilidad elegida.", "correct": false},
+            {"text": "Forma de trasladarnos de manera rápida, segura y ordenada; haciendo hincapié en los peatones y ciclistas y contribuyendo a una mejor calidad ambiental.", "correct": true}
+                ]
+            }
+        },
+        "category": "general",
+        "picture": "//"
+    },
+    {
+        "id": 102,
+        "translations": {
+            "zh": {
+                "question": "世界上所有交通系统的两个基本原则是什么？",
+                "answers": [
+                    {"text": "速度和舒适", "correct": false},
+                    {"text": "流动性和安全性", "correct": true},
+                    {"text": "舒适和敏捷", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "What are the two basic principles of any traffic system in the world?",
+                "answers": [
+                    {"text": "Speed and comfort", "correct": false},
+                    {"text": "Fluidity and safety", "correct": true},
+                    {"text": "Comfort and agility", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Jaké jsou dva základní principy každého dopravního systému na světě?",
+                "answers": [
+                    {"text": "Rychlost a pohodlí", "correct": false},
+                    {"text": "Plynulost a bezpečnost", "correct": true},
+                    {"text": "Pohodlí a obratnost", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "¿Cuáles son los dos principios básicos de todo sistema de tránsito en el mundo?",
+        "answers": [
+            {"text": "Velocidad y confort.", "correct": false},
+            {"text": "Fluidez y seguridad.", "correct": true},
+            {"text": "Comodidad y Agilidad.", "correct": false}
+                ]
+            }
+        },
+        "category": "rules",
+        "picture": "//"
+    },
+    {
+        "id": 103,
+        "translations": {
+            "zh": {
+                "question": "哪个陈述是正确的？",
+                "answers": [
+                    {"text": "更多非机动出行选择（如使用自行车）会增加事故发生的概率", "correct": false},
+                    {"text": "减少私家车数量会增加事故发生的概率", "correct": false},
+                    {"text": "机动车越多，事故发生的概率越高", "correct": true}
+                ]
+            },
+            "en": {
+                "question": "Which statement is correct?",
+                "answers": [
+                    {"text": "With more non-motorized mobility alternatives, such as bicycle use, the probability of accidents increases", "correct": false},
+                    {"text": "By decreasing the number of private vehicles, the probability of accidents increases", "correct": false},
+                    {"text": "The higher the number of motorized vehicles, the higher the probability of accidents", "correct": true}
+                ]
+            },
+            "cs": {
+                "question": "Které tvrzení je správné?",
+                "answers": [
+                    {"text": "Čím více nemotorizovaných alternativ mobility, jako je používání jízdního kola, tím vyšší je pravděpodobnost nehod", "correct": false},
+                    {"text": "Snížením počtu soukromých vozidel se zvyšuje pravděpodobnost nehod", "correct": false},
+                    {"text": "Čím vyšší počet motorových vozidel, tím vyšší pravděpodobnost nehod", "correct": true}
+                ]
+            },
+            "es": {
+        "question": "Indique cuál es la premisa correcta:",
+        "answers": [
+            {"text": "Al tener más alternativas de movilidad no motorizada, como el uso de bicicleta, mayor es la probabilidad de siniestralidad.", "correct": false},
+            {"text": "Al disminuir la cantidad de vehículos particulares, mayor es la probabilidad de siniestralidad.", "correct": false},
+            {"text": "A mayor cantidad de vehículos motorizados, mayor probabilidad de siniestralidad.", "correct": true}
+                ]
+            }
+        },
+        "category": "safety",
+        "picture": "//"
+    },
+    {
+        "id": 104,
+        "translations": {
+            "zh": {
+                "question": "以下哪种情况有更高的事故概率？",
+                "answers": [
+                    {"text": "选项A", "correct": false},
+                    {"text": "选项B", "correct": true},
+                    {"text": "选项A和B都是正确的", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Which of the following situations has a higher probability of accidents?",
+                "answers": [
+                    {"text": "Option A", "correct": false},
+                    {"text": "Option B", "correct": true},
+                    {"text": "Both answers, A and B, are correct", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Která z následujících situací má vyšší pravděpodobnost nehody?",
+                "answers": [
+                    {"text": "Možnost A", "correct": false},
+                    {"text": "Možnost B", "correct": true},
+                    {"text": "Obě odpovědi, A i B, jsou správné", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "Indique cuál de las siguientes situaciones conlleva mayor probabilidad de siniestralidad",
+        "answers": [
+            {"text": "Opción A.", "correct": false},
+            {"text": "Opción B.", "correct": true},
+            {"text": "Ambas respuestas, A y B, son correctas.", "correct": false}
+                ]
+            }
+        },
+        "category": "safety",
+        "picture": "images/image3.png"
+    },
+    {
+        "id": 105,
+        "translations": {
+            "zh": {
+                "question": "以下哪个选项按照从最易受伤害到最不易受伤害的顺序排列了道路使用者？",
+                "answers": [
+                    {"text": "卡车 - 公交车 - 摩托车 - 自行车 - 行人 - 出租车/汽车", "correct": false},
+                    {"text": "行人 - 自行车 - 摩托车 - 公交车 - 出租车/汽车 - 卡车", "correct": true},
+                    {"text": "行人 - 自行车 - 公交车 - 摩托车 - 出租车/汽车 - 卡车", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Which of the following options represents road users, ordered from most to least vulnerable?",
+                "answers": [
+                    {"text": "Truck - Bus - Motorcycle - Cyclist - Pedestrian - Taxi/Automobile", "correct": false},
+                    {"text": "Pedestrian - Cyclist - Motorcycle - Bus - Taxi/Automobile - Truck", "correct": true},
+                    {"text": "Pedestrian - Cyclist - Bus - Motorcycle - Taxi/Automobile - Truck", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Která z následujících možností představuje uživatele silnice seřazené od nejzranitelnějších po nejméně zranitelné?",
+                "answers": [
+                    {"text": "Nákladní auto - Autobus - Motocykl - Cyklista - Chodec - Taxi/Automobil", "correct": false},
+                    {"text": "Chodec - Cyklista - Motocykl - Autobus - Taxi/Automobil - Nákladní auto", "correct": true},
+                    {"text": "Chodec - Cyklista - Autobus - Motocykl - Taxi/Automobil - Nákladní auto", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "¿Cuál de las siguientes opciones representa a los usuarios de la vía, ordenados de más a menos vulnerable?",
+        "answers": [
+            {"text": "Camión - Colectivo - Moto - Ciclista - Peatón - Taxi/Automóvil.", "correct": false},
+            {"text": "Peatón - Ciclista - Moto - Colectivo - Taxi/Automóvil - Camión.", "correct": true},
+            {"text": "Peatón - Ciclista - Colectivo - Moto - Taxi/Automóvil - Camión.", "correct": false}
+                ]
+            }
+        },
+        "category": "traffic_rules",
+        "picture": "//"
+    },
+    {
+        "id": 106,
+        "translations": {
+            "zh": {
+                "question": "以下哪种交通方式同时具有环保、健康、经济和快速的优点？",
+                "answers": [
+                    {"text": "选项A", "correct": true},
+                    {"text": "选项B", "correct": false},
+                    {"text": "选项C", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Which mode of transport corresponds to all the following benefits: ecological, healthy, economical and fast?",
+                "answers": [
+                    {"text": "Option A", "correct": true},
+                    {"text": "Option B", "correct": false},
+                    {"text": "Option C", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Který způsob dopravy odpovídá všem následujícím výhodám: ekologický, zdravý, ekonomický a rychlý?",
+                "answers": [
+                    {"text": "Možnost A", "correct": true},
+                    {"text": "Možnost B", "correct": false},
+                    {"text": "Možnost C", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "¿A qué medio de transporte corresponden todos los siguientes beneficios: ecológico, saludable, económico y rápido?",
+        "answers": [
+            {"text": "Opción A.", "correct": true},
+            {"text": "Opción B.", "correct": false},
+            {"text": "Opción C.", "correct": false}
+                ]
+            }
+        },
+        "category": "general",
+        "picture": "images/image4.png"
+    },
+    {
+        "id": 107,
+        "translations": {
+            "zh": {
+                "question": "这样骑自行车可取吗？",
+                "answers": [
+                    {"text": "是的，因为他在正确骑行", "correct": false},
+                    {"text": "不行，因为使用耳机是一种分心因素，阻止你与周围环境的连接", "correct": true},
+                    {"text": "是的，因为他有必要的安全措施，使用耳机可以提高旅行质量", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Is it advisable to ride a bicycle this way?",
+                "answers": [
+                    {"text": "Yes, because he is riding correctly", "correct": false},
+                    {"text": "No, as using headphones is a distraction factor that prevents connecting with what's happening around", "correct": true},
+                    {"text": "Yes, as he has the necessary safety measures and the use of headphones improves the quality of the trip", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Je vhodné jezdit na kole tímto způsobem?",
+                "answers": [
+                    {"text": "Ano, protože jede správně", "correct": false},
+                    {"text": "Ne, protože používání sluchátek je rušivý faktor, který brání spojení s okolním děním", "correct": true},
+                    {"text": "Ano, protože má potřebná bezpečnostní opatření a používání sluchátek zlepšuje kvalitu jízdy", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "¿Es aconsejable circular en bicicleta de esta manera?",
+        "answers": [
+            {"text": "Sí, porque está conduciendo correctamente.", "correct": false},
+            {"text": "No, ya que utilizar auriculares es un factor de distracción que impide conectarse con lo que sucede alrededor.", "correct": true},
+            {"text": "Sí, ya que tiene las medidas de seguridad necesarias y el uso de los auriculares permite mejorar la calidad del viaje.", "correct": false}
+                ]
+            }
+        },
+        "category": "cycling",
+        "picture": "images/image5.png"
+    },
+    {
+        "id": 108,
+        "translations": {
+            "zh": {
+                "question": "关于着装，两位骑车人中谁发生交通事故的风险较低？",
+                "answers": [
+                    {"text": "选项A，因为穿浅色衣服更容易被看见", "correct": true},
+                    {"text": "选项B，因为穿深色衣服不会分散其他驾驶员的注意力", "correct": false},
+                    {"text": "两个选项的风险相同", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Regarding their attire, which of the two cyclists has less risk of suffering a traffic accident?",
+                "answers": [
+                    {"text": "Option A, since having light-colored clothing makes them more visible", "correct": true},
+                    {"text": "Option B, since having dark clothing doesn't generate distractions for other drivers", "correct": false},
+                    {"text": "Both options present the same risk equally", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Pokud jde o oblečení, který z těchto dvou cyklistů má menší riziko dopravní nehody?",
+                "answers": [
+                    {"text": "Možnost A, protože světlé oblečení je více viditelné", "correct": true},
+                    {"text": "Možnost B, protože tmavé oblečení nevytváří rozptýlení pro ostatní řidiče", "correct": false},
+                    {"text": "Obě možnosti představují stejné riziko", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "En cuanto a su indumentaria, ¿cuál de los dos ciclistas presenta menor riesgo de sufrir un siniestro vial?",
+        "answers": [
+            {"text": "La opción A, ya que al tener ropa clara es más visible.", "correct": true},
+            {"text": "Opción B, ya que al tener ropa oscura no genera distracciones en los demás conductores.", "correct": false},
+            {"text": "Ambas opciones presentan el mismo riesgo por igual.", "correct": false}
+                ]
+            }
+        },
+        "category": "cycling",
+        "picture": "images/image6.png"
+    },
+    {
+        "id": 109,
+        "translations": {
+            "zh": {
+                "question": "自行车可以在这条道路上行驶吗？",
+                "answers": [
+                    {"text": "可以，只要保持在右侧车道", "correct": false},
+                    {"text": "不可以，这是禁止的", "correct": true},
+                    {"text": "可以，只要遵守道路的最低速度限制", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Can you ride a bicycle on this road?",
+                "answers": [
+                    {"text": "Yes, as long as you stay in the right lane", "correct": false},
+                    {"text": "No, it is prohibited", "correct": true},
+                    {"text": "Yes, as long as you respect the minimum speed of the road", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Můžete jet na kole po této silnici?",
+                "answers": [
+                    {"text": "Ano, pokud zůstanete v pravém pruhu", "correct": false},
+                    {"text": "Ne, je to zakázáno", "correct": true},
+                    {"text": "Ano, pokud respektujete minimální rychlost silnice", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "¿Se puede circular en bicicleta por esta vía?",
+        "answers": [
+            {"text": "Sí, siempre que se mantenga en el carril derecho.", "correct": false},
+            {"text": "No, está prohibido.", "correct": true},
+            {"text": "Sí, mientras se respete la velocidad mínima de la arteria.", "correct": false}
+                ]
+            }
+        },
+        "category": "cycling",
+        "picture": "images/image7.png"
+    },
+    {
+        "id": 110,
+        "translations": {
+            "zh": {
+                "question": "骑自行车的人可以带乘客吗？",
+                "answers": [
+                    {"text": "可以，但仅当不妨碍视线时", "correct": false},
+                    {"text": "可以，只要乘客坐在骑车人后面的额外座位上", "correct": true},
+                    {"text": "选项A和B都不正确", "correct": false}
+                ]
+            },
+            "en": {
+                "question": "Is the cyclist allowed to carry a passenger?",
+                "answers": [
+                    {"text": "Yes, only if it doesn't compromise visibility", "correct": false},
+                    {"text": "Yes, as long as they are seated in an additional seat behind the rider", "correct": true},
+                    {"text": "Both answers, A and B, are incorrect", "correct": false}
+                ]
+            },
+            "cs": {
+                "question": "Smí cyklista převážet spolujezdce?",
+                "answers": [
+                    {"text": "Ano, pouze pokud to neomezuje viditelnost", "correct": false},
+                    {"text": "Ano, pokud sedí na přídavném sedadle za jezdcem", "correct": true},
+                    {"text": "Obě odpovědi, A i B, jsou nesprávné", "correct": false}
+                ]
+            },
+            "es": {
+        "question": "El ciclista, ¿tiene permitido llevar un pasajero?",
+        "answers": [
+            {"text": "Sí, únicamente si no compromete la visibilidad.", "correct": false},
+            {"text": "Sí, mientras que esté ubicado en un asiento adicional detrás del conductor.", "correct": true},
+            {"text": "Ambas respuestas, A y B, son incorrectas.", "correct": false}
+                ]
+            }
+        },
+        "category": "cycling",
+        "picture": "//"
+    }
+]

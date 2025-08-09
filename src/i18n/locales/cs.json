@@ -1,0 +1,68 @@
+{
+  "app": {
+    "name": "Test Řidičského Průkazu",
+    "language": "Jazyk"
+  },
+  "navigation": {
+    "home": "Domů",
+    "browse": "Procházet Otázky",
+    "exam": "Cvičný Test",
+    "favorites": "Oblíbené",
+    "mistakes": "Moje Chyby",
+    "settings": "Nastavení"
+  },
+  "home": {
+    "welcome": "Vítejte v Testu Řidičského Průkazu",
+    "description": "Připravte se na zkoušku řidičského průkazu s naší komplexní databází otázek",
+    "start_practice": "Začít Cvičení",
+    "start_exam": "Začít Test",
+    "browse_questions": "Procházet Otázky",
+    "view_favorites": "Zobrazit Oblíbené",
+    "view_mistakes": "Zobrazit Chyby"
+  },
+  "exam": {
+    "title": "Cvičný Test",
+    "question": "Otázka",
+    "of": "z",
+    "next": "Další",
+    "submit": "Odeslat",
+    "time_remaining": "Zbývající Čas",
+    "minutes": "minut",
+    "seconds": "sekund",
+    "result": "Výsledek",
+    "correct_answers": "Správné Odpovědi",
+    "score": "Skóre",
+    "review": "Zkontrolovat Odpovědi",
+    "try_again": "Zkusit Znovu",
+    "back_to_home": "Zpět Domů"
+  },
+  "question": {
+    "true": "Pravda",
+    "false": "Nepravda",
+    "add_to_favorites": "Přidat do Oblíbených",
+    "remove_from_favorites": "Odebrat z Oblíbených"
+  },
+  "categories": {
+    "all": "Všechny Kategorie",
+    "traffic_rules": "Pravidla Silničního Provozu",
+    "traffic_signs": "Dopravní Značky",
+    "vehicle_technical": "Technické Znalosti Vozidla",
+    "emergency": "Nouzové Situace",
+    "first_aid": "První Pomoc"
+  },
+  "settings": {
+    "title": "Nastavení",
+    "language": "Jazyk",
+    "exam_time": "Čas Zkoušky",
+    "exam_questions": "Počet Otázek v Testu",
+    "dark_mode": "Tmavý Režim",
+    "about": "O Aplikaci",
+    "version": "Verze"
+  },
+  "languages": {
+    "en": "Angličtina",
+    "zh": "Čínština",
+    "cs": "Čeština",
+    "es": "Španělština"
+  }
+} 

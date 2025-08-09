@@ -1,0 +1,68 @@
+{
+  "app": {
+    "name": "Examen de Licencia de Conducir",
+    "language": "Idioma"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "browse": "Explorar Preguntas",
+    "exam": "Examen Práctico",
+    "favorites": "Favoritos",
+    "mistakes": "Mis Errores",
+    "settings": "Configuración"
+  },
+  "home": {
+    "welcome": "Bienvenido al Examen de Licencia de Conducir",
+    "description": "Prepárate para tu examen de licencia de conducir con nuestro banco de preguntas completo",
+    "start_practice": "Comenzar Práctica",
+    "start_exam": "Comenzar Examen",
+    "browse_questions": "Explorar Preguntas",
+    "view_favorites": "Ver Favoritos",
+    "view_mistakes": "Ver Errores"
+  },
+  "exam": {
+    "title": "Examen Práctico",
+    "question": "Pregunta",
+    "of": "de",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "time_remaining": "Tiempo Restante",
+    "minutes": "minutos",
+    "seconds": "segundos",
+    "result": "Resultado",
+    "correct_answers": "Respuestas Correctas",
+    "score": "Puntuación",
+    "review": "Revisar Respuestas",
+    "try_again": "Intentar Nuevamente",
+    "back_to_home": "Volver al Inicio"
+  },
+  "question": {
+    "true": "Verdadero",
+    "false": "Falso",
+    "add_to_favorites": "Añadir a Favoritos",
+    "remove_from_favorites": "Quitar de Favoritos"
+  },
+  "categories": {
+    "all": "Todas las Categorías",
+    "traffic_rules": "Reglas de Tráfico",
+    "traffic_signs": "Señales de Tráfico",
+    "vehicle_technical": "Técnica del Vehículo",
+    "emergency": "Situaciones de Emergencia",
+    "first_aid": "Primeros Auxilios"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "exam_time": "Tiempo de Examen",
+    "exam_questions": "Número de Preguntas en el Examen",
+    "dark_mode": "Modo Oscuro",
+    "about": "Acerca de",
+    "version": "Versión"
+  },
+  "languages": {
+    "en": "Inglés",
+    "zh": "Chino",
+    "cs": "Checo",
+    "es": "Español"
+  }
+} 

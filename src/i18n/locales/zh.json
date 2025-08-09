@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "驾照考试宝典",
+    "language": "语言",
+    "loading": "正在加载应用...",
+    "error": "出错了"
+  },
+  "navigation": {
+    "home": "首页",
+    "browse": "浏览题库",
+    "exam": "模拟考试",
+    "favorites": "收藏题目",
+    "mistakes": "错题记录",
+    "settings": "设置",
+    "question_detail": "题目详情",
+    "exam_result": "考试结果"
+  },
+  "home": {
+    "welcome": "欢迎使用驾照考试宝典",
+    "description": "通过我们全面的题库为您的驾照考试做好准备",
+    "start_practice": "开始练习",
+    "start_exam": "开始考试",
+    "browse_questions": "浏览题库",
+    "view_favorites": "查看收藏",
+    "view_mistakes": "查看错题"
+  },
+  "exam": {
+    "title": "模拟考试",
+    "question": "问题",
+    "of": "/",
+    "next": "下一题",
+    "submit": "提交",
+    "time_remaining": "剩余时间",
+    "minutes": "分钟",
+    "seconds": "秒",
+    "result": "考试结果",
+    "correct_answers": "正确答案",
+    "score": "得分",
+    "review": "查看答案",
+    "try_again": "再试一次",
+    "back_to_home": "返回首页"
+  },
+  "question": {
+    "true": "正确",
+    "false": "错误",
+    "add_to_favorites": "添加到收藏",
+    "remove_from_favorites": "从收藏中移除",
+    "detail": "题目详情",
+    "loading": "加载中...",
+    "not_found": "题目不存在",
+    "answers": "答案",
+    "correct": "正确"
+  },
+  "categories": {
+    "all": "所有类别",
+    "traffic_rules": "交通规则",
+    "traffic_signs": "交通标志",
+    "vehicle_technical": "车辆技术",
+    "emergency": "紧急情况",
+    "first_aid": "急救知识"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "exam_time": "考试时间",
+    "exam_questions": "考试题目数量",
+    "dark_mode": "深色模式",
+    "about": "关于",
+    "version": "版本",
+    "preferences": "偏好设置",
+    "exam": "考试设置",
+    "about_app": "关于应用"
+  },
+  "languages": {
+    "en": "英语",
+    "zh": "中文",
+    "cs": "捷克语",
+    "es": "西班牙语"
+  },
+  "favorites": {
+    "empty": "没有收藏题目",
+    "empty_description": "您还没有收藏任何题目",
+    "loading": "加载收藏题目中..."
+  },
+  "mistakes": {
+    "empty": "没有错题记录",
+    "empty_description": "做得好！您还没有答错任何题目",
+    "loading": "加载错题记录中...",
+    "attempts": "答错次数: {{count}}"
+  }
+} 

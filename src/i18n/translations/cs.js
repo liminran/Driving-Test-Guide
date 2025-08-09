@@ -1,0 +1,157 @@
+// Czech translations
+const cs = {
+  navigation: {
+    home: 'Domů',
+    browse: 'Procházet',
+    exam: 'Zkouška',
+    favorites: 'Oblíbené',
+    mistakes: 'Chyby',
+    settings: 'Nastavení',
+    question_detail: 'Detail otázky',
+    exam_result: 'Výsledek zkoušky'
+  },
+  home: {
+    title: 'Aplikace pro řidičský průkaz ČR',
+    subtitle: 'Připravte se na českou řidičskou zkoušku s naší komplexní příručkou',
+    startExam: 'Začít zkoušku',
+    examDescription: 'Začněte simulovanou zkoušku s 25 náhodnými otázkami',
+    browseTopic: 'Procházet otázky',
+    browseDescription: 'Prozkoumat všechny otázky podle kategorie',
+    reviewMistakes: 'Přehled chyb',
+    mistakesDescription: 'Procvičte si otázky, které jste zodpověděli špatně',
+    favorites: 'Oblíbené',
+    favoritesDescription: 'Přehled vašich uložených otázek',
+    studyStats: 'Statistiky studia',
+    examsTaken: 'Zkoušky',
+    questionsAnswered: 'Otázky',
+    accuracy: 'Přesnost'
+  },
+  browse: {
+    title: 'Procházet otázky',
+    allQuestions: 'Všechny otázky',
+    search: 'Hledat otázky',
+    categories: {
+      traffic_signs: 'Dopravní značky',
+      traffic_rules: 'Dopravní pravidla',
+      priority: 'Pravidla přednosti',
+      parking: 'Pravidla parkování',
+      speed_limits: 'Rychlostní limity',
+      highway: 'Pravidla dálnice',
+      penalties: 'Pokuty',
+      general: 'Obecné'
+    },
+    noQuestionsFound: 'Nebyly nalezeny žádné otázky odpovídající vašim kritériím'
+  },
+  exam: {
+    title: 'Řidičská zkouška',
+    subtitle: 'Otestujte své znalosti řízení',
+    start: 'Začít zkoušku',
+    description: 'Zkouška se skládá z 25 náhodných otázek z různých kategorií. Pro úspěšné složení potřebujete zodpovědět alespoň 20 správně.',
+    timeLimit: 'Časový limit: 30 minut',
+    questionCount: 'Otázka: {{current}} z {{total}}',
+    timeRemaining: 'Čas: {{minutes}}:{{seconds}}',
+    submit: 'Odeslat odpovědi',
+    next: 'Další',
+    previous: 'Předchozí',
+    finishExam: 'Dokončit zkoušku',
+    chooseMode: 'Vyberte režim zkoušky',
+    customExam: 'Vlastní zkouška',
+    questionCount: 'Počet otázek (5-50)',
+    timeLimit: 'Časový limit (minuty, 0 pro neomezený)',
+    cancel: 'Zrušit',
+    examPreparation: 'Informace o zkoušce',
+    examInfo: '• Česká teoretická zkouška má 25 otázek, potřebujete 20 správných odpovědí pro úspěšné složení\n• Časový limit je 30 minut\n• Prosím, absolvujte zkoušku v klidném prostředí\n• Během zkoušky neukončujte aplikaci'
+  },
+  question: {
+    selectAnswer: 'Vyberte odpověď',
+    checkAnswer: 'Zkontrolovat odpověď',
+    correct: 'Správně',
+    incorrect: 'Nesprávně',
+    explanation: 'Vysvětlení',
+    nextQuestion: 'Další otázka',
+    loading: 'Načítání otázky...'
+  },
+  result: {
+    title: 'Výsledky zkoušky',
+    passed: 'Gratulujeme! Úspěšně jste složili zkoušku!',
+    failed: 'Bohužel jste neuspěli.',
+    score: 'Skóre: {{correct}}/{{total}}',
+    requiredToPass: 'Požadováno ke složení: 20/25',
+    reviewIncorrect: 'Přehled nesprávných odpovědí',
+    retakeExam: 'Opakovat zkoušku',
+    backToHome: 'Zpět na úvod',
+    examDetails: 'Detaily otázek',
+    yourAnswer: 'Vaše odpověď:',
+    correctAnswer: 'Správná odpověď:',
+    viewExplanation: 'Zobrazit vysvětlení',
+    timeSpent: 'Strávený čas',
+    correctCount: 'Správně',
+    incorrectCount: 'Nesprávně'
+  },
+  favorites: {
+    title: 'Oblíbené otázky',
+    noFavorites: 'Zatím jste nepřidali žádné oblíbené položky',
+    browseToAdd: 'Procházejte otázky a klepnutím na ikonu srdce uložte důležité otázky',
+    browseCatalog: 'Procházet otázky',
+    removeFavorite: 'Odstranit z oblíbených',
+    addFavorite: 'Přidat do oblíbených',
+    edit: 'Upravit',
+    cancel: 'Zrušit',
+    delete: 'Smazat',
+    selectAll: 'Vybrat vše',
+    deselectAll: 'Zrušit výběr',
+    favoritesCount: '{{count}} uložených otázek',
+    viewDetails: 'Zobrazit detaily'
+  },
+  mistakes: {
+    title: 'Chybné otázky',
+    noMistakes: 'Zatím nemáte žádné chyby!',
+    practiceToContinue: 'Pokračujte v procvičování, otázky, které zodpovíte nesprávně, se objeví zde',
+    startPractice: 'Začít procvičování',
+    mistakesCount: '{{count}} chybných otázek',
+    sortNewest: 'Nejnovější',
+    sortOldest: 'Nejstarší',
+    clearAll: 'Vymazat vše',
+    clearConfirm: 'Opravdu chcete vymazat všechny záznamy o chybách? Tuto akci nelze vrátit zpět.',
+    viewExplanation: 'Zobrazit vysvětlení'
+  },
+  settings: {
+    title: 'Nastavení',
+    subtitle: 'Přizpůsobte si svou aplikaci',
+    language: 'Jazyk',
+    about: 'O aplikaci',
+    version: 'Verze',
+    resetData: 'Resetovat všechna data',
+    resetConfirm: 'Jste si jisti? Tímto smažete všechna uložená data a akci nelze vrátit zpět.',
+    resetSuccess: 'Všechna data byla resetována.',
+    languages: {
+      en: 'Angličtina',
+      zh: 'Čínština',
+      cs: 'Čeština',
+      es: 'Španělština'
+    },
+    appSettings: 'Nastavení aplikace',
+    dailyReminder: 'Denní připomenutí',
+    reminderDescription: 'Dostávat denní připomenutí ke studiu',
+    darkMode: 'Tmavý režim',
+    darkModeDescription: 'Použít noční režim pro ochranu očí',
+    appInfo: 'Informace o aplikaci',
+    rateApp: 'Ohodnotit aplikaci',
+    privacyPolicy: 'Zásady ochrany osobních údajů',
+    appVersion: 'Aplikace pro řidičský průkaz ČR v1.0.0'
+  },
+  common: {
+    loading: 'Načítání...',
+    error: 'Chyba',
+    cancel: 'Zrušit',
+    confirm: 'Potvrdit',
+    save: 'Uložit',
+    delete: 'Smazat',
+    edit: 'Upravit',
+    done: 'Hotovo',
+    yes: 'Ano',
+    no: 'Ne'
+  }
+};
+
+export default cs; 
