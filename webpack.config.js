@@ -1,8 +1,10 @@
 const createExpoWebpackConfigAsync = require('@expo/webpack-config');
-const path = require('path');
 
-module.exports = (env, argv) => {
-  const config = require('@expo/webpack-config')(env, argv);
-  config.output.publicPath = './';  // 避免输出为 '/'
+module.exports = async (env, argv) => {
+  const config = await createExpoWebpackConfigAsync(env, argv);
+  // 确保 output 存在后再设置 publicPath
+  config.output = config.output || {};
+  // 使用相对路径，适配 GitHub Pages 子路径部署
+  config.output.publicPath = './';
   return config;
 }; 
