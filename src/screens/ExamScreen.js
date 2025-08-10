@@ -8,6 +8,7 @@ import assetDataService from '../utils/assetDataService';
 import { recordMistake, saveExamResult, updateStudyProgress } from '../utils/database';
 import { recordMistakesBatch } from '../utils/database';
 import { getImageProps } from '../utils/styleUtils';
+import { isPremiumActive } from '../utils/premium';
 
 // 获取设备尺寸
 const { width, height } = Dimensions.get('window');
@@ -157,11 +158,30 @@ const ExamScreen = ({ navigation }) => {
     if (selectedCategory !== 'all') {
       filteredQuestions = questions.filter(q => q.category === selectedCategory);
     }
-    
+
     // 随机选择题目
     const shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, EXAM_CONFIG.TOTAL_QUESTIONS);
-    
+
+    // 按会员状态限制题量
+    let allowedCount = EXAM_CONFIG.TOTAL_QUESTIONS;
+    try {
+      const premium = await isPremiumActive();
+      if (!premium) {
+        allowedCount = Math.min(10, EXAM_CONFIG.TOTAL_QUESTIONS);
+        // 引导升级
+        Alert.alert(
+          '高级功能提示',
+          `当前为免费模式，单次可答 ${allowedCount} 题。开通会员可解锁完整考试与更多功能。`,
+          [
+            { text: '稍后', style: 'cancel' },
+            { text: '去开通', style: 'default', onPress: () => navigation.navigate('Premium') }
+          ]
+        );
+      }
+    } catch (_) {}
+
+    const selected = shuffled.slice(0, allowedCount);
+
     // 格式化题目数据
     const formattedQuestions = selected.map((q, index) => ({
       ...q,
@@ -172,9 +192,9 @@ const ExamScreen = ({ navigation }) => {
         isCorrect: ans.correct
       }))
     }));
-    
+
     // 如果题目不足，提示错误
-    if (formattedQuestions.length < EXAM_CONFIG.TOTAL_QUESTIONS) {
+    if (formattedQuestions.length < allowedCount) {
       Alert.alert(
         '题目不足',
         `当前类别下只有 ${formattedQuestions.length} 道题目，无法开始考试。`,
@@ -182,15 +202,15 @@ const ExamScreen = ({ navigation }) => {
       );
       return;
     }
-    
+
     // 初始化考试
     setQuestions(formattedQuestions);
     setCurrentIndex(0);
-      setAnswers({});
+    setAnswers({});
     setRemainingTime(EXAM_CONFIG.TIME_LIMIT);
     setExamStarted(true);
-      setExamFinished(false);
-    
+    setExamFinished(false);
+
     // 开始计时器
     timerRef.current = setInterval(() => {
       setRemainingTime(prev => {

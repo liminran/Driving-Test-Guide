@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ActivityIndicator, Text, View } from 'react-native';
 import initI18n from '../i18n/i18n';
+import { isActivated, subscribePremiumStatus } from '../utils/premium';
 
 // 导入屏幕
 import BrowseScreen from '../screens/BrowseScreen';
@@ -16,6 +17,8 @@ import QuestionDetailScreen from '../screens/QuestionDetailScreen';
 import ResultScreen from '../screens/ResultScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import StudyProgressScreen from '../screens/StudyProgressScreen';
+import PremiumScreen from '../screens/PremiumScreen';
+import ActivationScreen from '../screens/ActivationScreen';
 
 // 创建导航器
 const Tab = createBottomTabNavigator();
@@ -131,6 +134,25 @@ export default function AppNavigator() {
 // 将根导航器拆分为单独的组件
 function RootNavigator() {
   const { t } = useTranslation();
+  const [activated, setActivated] = useState(null);
+
+  useEffect(() => {
+    (async () => { setActivated(await isActivated()); })();
+    // 订阅会员状态变化，自动刷新导航
+    const unsub = subscribePremiumStatus(async () => {
+      setActivated(await isActivated());
+    });
+    return unsub;
+  }, []);
+
+  if (activated === null) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator size="large" color="#0066cc" />
+        <Text style={{ marginTop: 20, fontSize: 16, color: '#666' }}>初始化...</Text>
+      </View>
+    );
+  }
   
   // 获取屏幕标题的函数
   const getScreenTitle = (key) => {
@@ -139,6 +161,8 @@ function RootNavigator() {
   
   return (
     <Stack.Navigator
+      key={activated ? 'activated' : 'not_activated'}
+      initialRouteName={activated ? 'Main' : 'Activation'}
       screenOptions={{
         headerShown: true,
         headerTitleStyle: {
@@ -147,6 +171,11 @@ function RootNavigator() {
         headerTintColor: '#0066cc',
       }}
     >
+      <Stack.Screen 
+        name="Activation" 
+        component={ActivationScreen} 
+        options={{ title: '激活' }}
+      />
       <Stack.Screen 
         name="Main" 
         component={MainTabNavigator} 
@@ -169,6 +198,11 @@ function RootNavigator() {
         name="StudyProgress" 
         component={StudyProgressScreen} 
         options={{ title: getScreenTitle('study_progress') }}
+      />
+      <Stack.Screen 
+        name="Premium" 
+        component={PremiumScreen} 
+        options={{ title: '会员中心' }}
       />
     </Stack.Navigator>
   );

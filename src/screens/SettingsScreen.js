@@ -216,6 +216,11 @@ const SettingsScreen = ({ navigation }) => {
     );
   };
 
+  // 打开会员中心
+  const openPremiumCenter = () => {
+    navigation.navigate('Premium');
+  };
+
   // 添加修复应用功能
   const handleFixApp = () => {
     Alert.alert(
@@ -319,7 +324,7 @@ const SettingsScreen = ({ navigation }) => {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>关于</Text>
           <View style={styles.sectionContent}>
-            <TouchableOpacity style={styles.optionItem}>
+            <TouchableOpacity style={styles.optionItem} onPress={showAppInfo}>
               <View style={styles.settingInfo}>
                 <Ionicons name="information-circle-outline" size={24} color="#555" style={styles.settingIcon} />
                 <Text style={styles.settingTitle}>应用信息</Text>
@@ -327,7 +332,7 @@ const SettingsScreen = ({ navigation }) => {
               <Ionicons name="chevron-forward" size={20} color="#ccc" />
             </TouchableOpacity>
             
-            <TouchableOpacity style={styles.optionItem}>
+            <TouchableOpacity style={styles.optionItem} onPress={goToRating}>
               <View style={styles.settingInfo}>
                 <Ionicons name="star-outline" size={24} color="#555" style={styles.settingIcon} />
                 <Text style={styles.settingTitle}>评分应用</Text>
@@ -335,10 +340,21 @@ const SettingsScreen = ({ navigation }) => {
               <Ionicons name="chevron-forward" size={20} color="#ccc" />
             </TouchableOpacity>
             
-            <TouchableOpacity style={styles.optionItem}>
+            <TouchableOpacity style={styles.optionItem} onPress={viewPrivacyPolicy}>
               <View style={styles.settingInfo}>
                 <Ionicons name="lock-closed-outline" size={24} color="#555" style={styles.settingIcon} />
                 <Text style={styles.settingTitle}>隐私政策</Text>
+              </View>
+              <Ionicons name="chevron-forward" size={20} color="#ccc" />
+            </TouchableOpacity>
+
+            <TouchableOpacity style={styles.optionItem} onPress={openPremiumCenter}>
+              <View style={styles.settingInfo}>
+                <Ionicons name="medal-outline" size={24} color="#c084fc" style={styles.settingIcon} />
+                <View>
+                  <Text style={styles.settingTitle}>会员中心</Text>
+                  <Text style={styles.settingDescription}>开通高级功能与权益</Text>
+                </View>
               </View>
               <Ionicons name="chevron-forward" size={20} color="#ccc" />
             </TouchableOpacity>

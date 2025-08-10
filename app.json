@@ -35,6 +35,11 @@
     "extra": {
       "eas": {
         "projectId": "d650de89-0e89-4fab-bf11-91b9b4df01db"
+      },
+      "payments": {
+        "createOrderUrl": "https://your-api.example.com/pay/create-order", 
+        "checkStatusUrl": "https://your-api.example.com/pay/check-status",
+        "paypalMeUrl": "https://paypal.me/yourname/299" 
       }
     },
     "plugins": [
