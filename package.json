@@ -12,7 +12,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web"
   },
-  "homepage": "https://liminran.github.io/cz-driver/",
+  "homepage": "https://liminran.github.io/Driving-Test-Guide/",
   "dependencies": {
     "@expo/metro-runtime": "^5.0.4",
     "@expo/webpack-config": "^19.0.0",

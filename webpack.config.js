@@ -1,21 +1,8 @@
 const createExpoWebpackConfigAsync = require('@expo/webpack-config');
 const path = require('path');
 
-module.exports = async function (env, argv) {
-  const config = await createExpoWebpackConfigAsync({
-    ...env,
-    babel: {
-      dangerouslyAddModulePathsToTranspile: [
-        'expo-sqlite',
-      ],
-    },
-  }, argv);
-
-  // 添加fallback，解决wa-sqlite.wasm缺失问题
-  config.resolve.fallback = {
-    ...config.resolve.fallback,
-    'wa-sqlite/wa-sqlite.wasm': false,
-  };
-
+module.exports = (env, argv) => {
+  const config = require('@expo/webpack-config')(env, argv);
+  config.output.publicPath = './';  // 避免输出为 '/'
   return config;
 }; 
