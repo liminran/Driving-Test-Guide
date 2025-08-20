@@ -2457,97 +2457,6 @@
     "picture": "image2/roadworksstop.jpg"
   },
   {
-    "id": 28,
-    "translations": {
-      "zh": {
-        "question": "结合签名是什么意思",
-        "answers": [
-          {
-            "text": "速度限制结束。",
-            "correct": false
-          },
-          {
-            "text": "绕道结束。",
-            "correct": true
-          },
-          {
-            "text": "路的尽头。",
-            "correct": false
-          },
-          {
-            "text": "道路工程的尽头。",
-            "correct": false
-          }
-        ]
-      },
-      "es": {
-        "question": "What do these signs together mean ",
-        "answers": [
-          {
-            "text": "End of speed limit.",
-            "correct": false
-          },
-          {
-            "text": "End of detour.",
-            "correct": true
-          },
-          {
-            "text": "End of road.",
-            "correct": false
-          },
-          {
-            "text": "End of road works.",
-            "correct": false
-          }
-        ]
-      },
-      "cs": {
-        "question": "Co znamenají tobe značky",
-        "answers": [
-          {
-            "text": "Konec rychlostního limitu.",
-            "correct": false
-          },
-          {
-            "text": "Konec objížďky.",
-            "correct": true
-          },
-          {
-            "text": "Konec silnice.",
-            "correct": false
-          },
-          {
-            "text": "Konec silniční práce.",
-            "correct": false
-          }
-        ]
-      },
-      "en": {
-        "question": "What do these signs together mean ",
-        "answers": [
-          {
-            "text": "End of speed limit.",
-            "correct": false
-          },
-          {
-            "text": "End of detour.",
-            "correct": true
-          },
-          {
-            "text": "End of road.",
-            "correct": false
-          },
-          {
-            "text": "End of road works.",
-            "correct": false
-          }
-        ]
-      }
-    },
-    "category": "rules",
-    "picture": "image2/endofdetour.jpg"
-  },
-  {
     "id": 29,
     "translations": {
       "zh": {
@@ -6479,7 +6388,7 @@
             "correct": true
           },
           {
-            "text": "仅网络。",
+            "text": "仅限红色信号灯。",
             "correct": false
           }
         ]
@@ -6919,22 +6828,22 @@
     "id": 77,
     "translations": {
       "zh": {
-        "question": "鹈鹕过境点闪烁琥珀色的灯是什么意思",
+        "question": "人行横道上闪烁的琥珀色信号灯是什么意思",
         "answers": [
           {
-            "text": "停下来并让位于行人 - 如果路很清楚，请继续前进。",
+            "text": "请停车并让行人通过 - 如果道路畅通，请继续前行。",
             "correct": true
           },
           {
-            "text": "您正在进入特殊的速度限制区域。",
+            "text": "您正在进入特殊限速区域。",
             "correct": false
           },
           {
-            "text": "前方的危险 - 您必须停下来等到他们停止闪烁。",
+            "text": "前方危险 - 您必须停车并等待信号灯停止闪烁。",
             "correct": false
           },
           {
-            "text": "有通行权驱动程序。",
+            "text": "驾驶员享有优先通行权。",
             "correct": false
           }
         ]
@@ -7920,14 +7829,14 @@
     "id": 88,
     "translations": {
       "zh": {
-        "question": "何时在脚步上停车许可证",
+        "question": "什么情况下允许在人行道上停车",
         "answers": [
           {
-            "text": "需要停在脚步上。",
+            "text": "绝对不允许在人行道上停车。",
             "correct": true
           },
           {
-            "text": "当您的车辆上的一半超过一半时。",
+            "text": "当人行道至少有一半的面积可供行人通行时。",
             "correct": false
           },
           {
@@ -7935,7 +7844,7 @@
             "correct": false
           },
           {
-            "text": "当汽车停在道路上时。",
+            "text": "当车辆停在道路两侧时。",
             "correct": false
           }
         ]
@@ -8011,26 +7920,26 @@
     "id": 89,
     "translations": {
       "zh": {
-        "question": "什么时候双停车丸",
-        "answers": [
-          {
-            "text": "当有双白线时。",
-            "correct": false
-          },
-          {
-            "text": "双重停车永远不会惊讶。",
-            "correct": true
-          },
-          {
-            "text": "当有双黄线时。",
-            "correct": false
-          },
-          {
-            "text": "当有坚硬的肩膀时。",
-            "correct": false
-          }
-        ]
-      },
+"question": "什么时候允许双重停车",
+"answers": [
+{
+"text": "当有双白线时。",
+"correct": false
+},
+{
+"text": "绝对不允许双重停车。",
+"correct": true
+},
+{
+"text": "当有双黄线时。",
+"correct": false
+},
+{
+"text": "当有硬路肩时。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "When is double parking permitted",
         "answers": [
@@ -8102,26 +8011,26 @@
     "id": 90,
     "translations": {
       "zh": {
-        "question": "何时在出租车上停车许可证",
-        "answers": [
-          {
-            "text": "停车不到15分钟。",
-            "correct": false
-          },
-          {
-            "text": "等待从出租车收集乘客时。",
-            "correct": false
-          },
-          {
-            "text": "当排名没有占用时。",
-            "correct": false
-          },
-          {
-            "text": "禁止在出租车等级停车。",
-            "correct": true
-          }
-        ]
-      },
+"question": "出租车候客站何时允许停车",
+"answers": [
+{
+"text": "停车时间少于 15 分钟时。",
+"correct": false
+},
+{
+"text": "等待出租车接乘客时。",
+"correct": false
+},
+{
+"text": "候客站无人时。",
+"correct": false
+},
+{
+"text": "禁止在出租车候客站停车。",
+"correct": true
+}
+]
+},
       "es": {
         "question": "When is parking permitted at a taxi rank",
         "answers": [
@@ -8193,26 +8102,26 @@
     "id": 91,
     "translations": {
       "zh": {
-        "question": "什么时候允许停车在锋利",
-        "answers": [
-          {
-            "text": "当您戴上危险警告灯时。",
-            "correct": false
-          },
-          {
-            "text": "停车永远不会对锋利的布莱斯感到惊讶。",
-            "correct": true
-          },
-          {
-            "text": "只要您将停车位距离路的路边或边缘不超过45厘米。",
-            "correct": false
-          },
-          {
-            "text": "当从后面的驾驶员可以看到您的车辆时。",
-            "correct": false
-          }
-        ]
-      },
+"question": "什么时候允许在急弯处停车",
+"answers": [
+{
+"text": "当你打开危险警示灯时。",
+"correct": false
+},
+{
+"text": "急弯处绝对不允许停车。",
+"correct": true
+},
+{
+"text": "前提是你的停车距离路缘或路边不超过45厘米。",
+"correct": false
+},
+{
+"text": "当后方驾驶员能够看到你的车辆时。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "When is parking permitted at a sharp bend",
         "answers": [
@@ -8284,26 +8193,26 @@
     "id": 92,
     "translations": {
       "zh": {
-        "question": "什么时候在山丘的额头上停车许可证",
-        "answers": [
-          {
-            "text": "当您将车轮倾斜时，将车轮转向路缘。",
-            "correct": false
-          },
-          {
-            "text": "当它具有有效的手刹时。",
-            "correct": false
-          },
-          {
-            "text": "只有在道路上没有交通时。",
-            "correct": false
-          },
-          {
-            "text": "永远不允许在山顶上停车。",
-            "correct": true
-          }
-        ]
-      },
+"question": "什么情况下允许在山顶停车",
+"answers": [
+{
+"text": "当你将车轮转向路缘时。",
+"correct": false
+},
+{
+"text": "当车辆配备有效的手刹时。",
+"correct": false
+},
+{
+"text": "只有在道路上没有车辆时。",
+"correct": false
+},
+{
+"text": "绝对不允许在山顶停车。",
+"correct": true
+}
+]
+},
       "es": {
         "question": "When is parking permitted on the brow of a hill",
         "answers": [
@@ -8375,26 +8284,26 @@
     "id": 93,
     "translations": {
       "zh": {
-        "question": "如果没有脚步，人行人必须在哪里",
-        "answers": [
-          {
-            "text": "道路的右侧。",
-            "correct": true
-          },
-          {
-            "text": "1从边缘放置。",
-            "correct": false
-          },
-          {
-            "text": "没有法规。",
-            "correct": false
-          },
-          {
-            "text": "路的左侧。",
-            "correct": false
-          }
-        ]
-      },
+"question": "如果没有人行道，行人必须在哪里行走",
+"answers": [
+{
+"text": "道路右侧。",
+"correct": true
+},
+{
+"text": "距离边缘 1 米。",
+"correct": false
+},
+{
+"text": "没有规定。",
+"correct": false
+},
+{
+"text": "道路左侧。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "If there is no footpath, where must a pedestrian walk",
         "answers": [
@@ -8918,120 +8827,29 @@
     "picture": "image2/overhangingload.jpg"
   },
   {
-    "id": 99,
-    "translations": {
-      "zh": {
-        "question": "什么时候点燃数小时",
-        "answers": [
-          {
-            "text": "当可见度小于200梅时。",
-            "correct": false
-          },
-          {
-            "text": "从午夜到凌晨6点",
-            "correct": false
-          },
-          {
-            "text": "从黄昏之后到黎明之前。",
-            "correct": true
-          },
-          {
-            "text": "当可见度小于300梅时。",
-            "correct": false
-          }
-        ]
-      },
-      "es": {
-        "question": "When are lighting up hours",
-        "answers": [
-          {
-            "text": "When visibility is less than 200 meters.",
-            "correct": false
-          },
-          {
-            "text": "From mid-night until 6 a.m.",
-            "correct": false
-          },
-          {
-            "text": "From just after dusk to just before dawn.",
-            "correct": true
-          },
-          {
-            "text": "When visibility is less than 300 meters.",
-            "correct": false
-          }
-        ]
-      },
-      "cs": {
-        "question": "Kdy jsou hodiny rozsvícení",
-        "answers": [
-          {
-            "text": "Když je viditelnost menší než 200 Mnoers.",
-            "correct": false
-          },
-          {
-            "text": "Od poloviny noci do 6:00.",
-            "correct": false
-          },
-          {
-            "text": "Od těsně po soumraku do těsně před úsvitem.",
-            "correct": true
-          },
-          {
-            "text": "Když je viditelnost menší než 300 Mnoers.",
-            "correct": false
-          }
-        ]
-      },
-      "en": {
-        "question": "When are lighting up hours",
-        "answers": [
-          {
-            "text": "When visibility is less than 200 meters.",
-            "correct": false
-          },
-          {
-            "text": "From mid-night until 6 a.m.",
-            "correct": false
-          },
-          {
-            "text": "From just after dusk to just before dawn.",
-            "correct": true
-          },
-          {
-            "text": "When visibility is less than 300 meters.",
-            "correct": false
-          }
-        ]
-      }
-    },
-    "category": "all",
-    "picture": ""
-  },
-  {
     "id": 101,
     "translations": {
       "zh": {
-        "question": "隆隆声警告驾驶员",
-        "answers": [
-          {
-            "text": "立即或侧面危险。",
-            "correct": true
-          },
-          {
-            "text": "前方有铁路级别的交叉。",
-            "correct": false
-          },
-          {
-            "text": "他们正在进入速度限制区域。",
-            "correct": false
-          },
-          {
-            "text": "前方有一个停车标志。",
-            "correct": false
-          }
-        ]
-      },
+"question": "隆隆声带警示驾驶员什么",
+"answers": [
+{
+"text": "前方或侧面有危险。",
+"correct": true
+},
+{
+"text": "前方有铁路平交道口。",
+"correct": false
+},
+{
+"text": "他们正在进入限速区域。",
+"correct": false
+},
+{
+"text": "前方有停车标志。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "What do rumble strips warn a driver of",
         "answers": [
@@ -26029,14 +25847,14 @@
     "id": 323,
     "translations": {
       "zh": {
-        "question": "什么应该",
+        "question": "夜间近车行驶时，驾驶员应该打开哪些车灯",
         "answers": [
           {
-            "text": "倾斜的大灯。",
+            "text": "近光灯",
             "correct": true
           },
           {
-            "text": "完整的大灯。",
+            "text": "远光灯",
             "correct": false
           },
           {
@@ -27120,27 +26938,28 @@
   {
     "id": 335,
     "translations": {
-      "zh": {
-        "question": "驾驶车辆时，什么效果",
-        "answers": [
-          {
-            "text": "前轮胎胎面可能会更快地磨损。",
-            "correct": false
-          },
-          {
-            "text": "轮胎抓地力改善。",
-            "correct": false
-          },
-          {
-            "text": "后轮胎胎面可能会更快地磨损。",
-            "correct": false
-          },
-          {
-            "text": "该车辆比正常情况更容易滑落。",
-            "correct": true
-          }
-        ]
-      },
+      "zh":
+{
+"question": "驾驶车辆时，结冰路面可能造成什么影响",
+"answers": [
+{
+"text": "前轮胎胎面可能会磨损得更快。",
+"correct": false
+},
+{
+"text": "轮胎抓地力可能会提高。",
+"correct": false
+},
+{
+"text": "后轮胎胎面可能会磨损得更快。",
+"correct": false
+},
+{
+"text": "车辆可能比平时更容易打滑。",
+"correct": true
+}
+]
+},
       "es": {
         "question": "When driving a vehicle, what effect could icy roads have",
         "answers": [
@@ -28486,26 +28305,26 @@
     "id": 351,
     "translations": {
       "zh": {
-        "question": "哪些交通可能使用柜台流动车道",
-        "answers": [
-          {
-            "text": "公共汽车，出租车和摩托车。",
-            "correct": false
-          },
-          {
-            "text": "预定服务上的巴士。",
-            "correct": true
-          },
-          {
-            "text": "公共汽车，出租车和骑自行车的人。",
-            "correct": false
-          },
-          {
-            "text": "和出租车巴士。",
-            "correct": false
-          }
-        ]
-      },
+"question": "哪些车辆可以使用逆向公交车道",
+"answers": [
+{
+"text": "公交车、出租车和摩托车。",
+"correct": false
+},
+{
+"text": "定期运营的公交车。",
+"correct": true
+},
+{
+"text": "公交车、出租车和自行车。",
+"correct": false
+},
+{
+"text": "公交车和出租车。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "What traffic may use a contra-flow bus lane",
         "answers": [
@@ -36130,26 +35949,26 @@
     "id": 502,
     "translations": {
       "zh": {
-        "question": "coul对车辆的分布不均匀负载有什么影响",
-        "answers": [
-          {
-            "text": "它可以在转弯或刹车时使无法兑现的车辆成为可能的车辆。",
-            "correct": true
-          },
-          {
-            "text": "加速时可能会导致离合器滑倒。",
-            "correct": false
-          },
-          {
-            "text": "它可能导致变速箱过热。",
-            "correct": false
-          },
-          {
-            "text": "它的燃油消耗。",
-            "correct": false
-          }
-        ]
-      },
+"question": "不均匀分布的负载会对车辆造成什么影响",
+"answers": [
+{
+"text": "这可能会导致车辆在转弯或刹车时不稳定。",
+"correct": true
+},
+{
+"text": "这可能会导致离合器在加速时打滑。",
+"correct": false
+},
+{
+"text": "这可能会导致变速箱过热。",
+"correct": false
+},
+{
+"text": "这可能会导致油耗。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "What effect could an unevenly distributed load have on a vehicle",
         "answers": [
@@ -36751,97 +36570,6 @@
           },
           {
             "text": "Radio.",
-            "correct": false
-          },
-          {
-            "text": "Airfreshener.",
-            "correct": false
-          }
-        ]
-      }
-    },
-    "category": "all",
-    "picture": ""
-  },
-  {
-    "id": 509,
-    "translations": {
-      "zh": {
-        "question": "以下哪项是需要保持状况良好的驱动程序",
-        "answers": [
-          {
-            "text": "收音机。",
-            "correct": false
-          },
-          {
-            "text": "安全带。",
-            "correct": true
-          },
-          {
-            "text": "内饰。",
-            "correct": false
-          },
-          {
-            "text": "Airfreshener。",
-            "correct": false
-          }
-        ]
-      },
-      "es": {
-        "question": "Which of the following is a driver required to keep in good condition",
-        "answers": [
-          {
-            "text": "Radio.",
-            "correct": false
-          },
-          {
-            "text": "Seatbelts.",
-            "correct": true
-          },
-          {
-            "text": "Upholstery.",
-            "correct": false
-          },
-          {
-            "text": "Airfreshener.",
-            "correct": false
-          }
-        ]
-      },
-      "cs": {
-        "question": "Který z následujících je řidič, který má být v dobrém stavu",
-        "answers": [
-          {
-            "text": "Rádio.",
-            "correct": false
-          },
-          {
-            "text": "Bezpečné pásy.",
-            "correct": true
-          },
-          {
-            "text": "ČALOUNICTVÍ.",
-            "correct": false
-          },
-          {
-            "text": "Airfreshener.",
-            "correct": false
-          }
-        ]
-      },
-      "en": {
-        "question": "Which of the following is a driver required to keep in good condition",
-        "answers": [
-          {
-            "text": "Radio.",
-            "correct": false
-          },
-          {
-            "text": "Seatbelts.",
-            "correct": true
-          },
-          {
-            "text": "Upholstery.",
             "correct": false
           },
           {
@@ -56969,7 +56697,7 @@
     "id": 736,
     "translations": {
       "zh": {
-        "question": "当雨雨突然停止起作用时指出什么问题",
+        "question": "雨刮器突然停止工作表明什么问题",
         "answers": [
           {
             "text": "保险丝被吹了。",
@@ -65603,97 +65331,6 @@
           {
             "text": "To protect the occupants when the vehicle is hit from the side.",
             "correct": true
-          }
-        ]
-      }
-    },
-    "category": "all",
-    "picture": ""
-  },
-  {
-    "id": 831,
-    "translations": {
-      "zh": {
-        "question": "当雨雨突然停止起作用时指出什么问题",
-        "answers": [
-          {
-            "text": "挡风玻璃洗衣机储层干燥。",
-            "correct": false
-          },
-          {
-            "text": "保险丝被吹了",
-            "correct": true
-          },
-          {
-            "text": "交流发电机有故障。",
-            "correct": false
-          },
-          {
-            "text": "需要更换刮水器叶片。",
-            "correct": false
-          }
-        ]
-      },
-      "es": {
-        "question": "What problem is indicated when wipers suddenly cease to function",
-        "answers": [
-          {
-            "text": "The windscreen washer reservoir is dry.",
-            "correct": false
-          },
-          {
-            "text": "A fuse is blown",
-            "correct": true
-          },
-          {
-            "text": "The alternator is faulty.",
-            "correct": false
-          },
-          {
-            "text": "The wiper blades need to be replaced.",
-            "correct": false
-          }
-        ]
-      },
-      "cs": {
-        "question": "Jaký problém je naznačen, když stěrače najednou přestanou fungovat",
-        "answers": [
-          {
-            "text": "Nádrž na čelní sklo je suchá.",
-            "correct": false
-          },
-          {
-            "text": "Pojistka je foukána",
-            "correct": true
-          },
-          {
-            "text": "Alternátor je vadný.",
-            "correct": false
-          },
-          {
-            "text": "Čepele stěrače je třeba vyměnit.",
-            "correct": false
-          }
-        ]
-      },
-      "en": {
-        "question": "What problem is indicated when wipers suddenly cease to function",
-        "answers": [
-          {
-            "text": "The windscreen washer reservoir is dry.",
-            "correct": false
-          },
-          {
-            "text": "A fuse is blown",
-            "correct": true
-          },
-          {
-            "text": "The alternator is faulty.",
-            "correct": false
-          },
-          {
-            "text": "The wiper blades need to be replaced.",
-            "correct": false
           }
         ]
       }
@@ -77077,97 +76714,6 @@
     "picture": ""
   },
   {
-    "id": 393,
-    "translations": {
-      "zh": {
-        "question": "驾驶员进入隧道时该怎么办",
-        "answers": [
-          {
-            "text": "打开倾斜的大灯。",
-            "correct": true
-          },
-          {
-            "text": "打开大灯。",
-            "correct": false
-          },
-          {
-            "text": "收听当地收音机。",
-            "correct": false
-          },
-          {
-            "text": "打开危险警告灯。",
-            "correct": false
-          }
-        ]
-      },
-      "es": {
-        "question": "¿Qué debe hacer un conductor al ingresar a un túnel?",
-        "answers": [
-          {
-            "text": "Encender los faros bañados.",
-            "correct": true
-          },
-          {
-            "text": "Enciende tus faros.",
-            "correct": false
-          },
-          {
-            "text": "Escuche la radio local.",
-            "correct": false
-          },
-          {
-            "text": "Encienda las luces de advertencia de sus peligros.",
-            "correct": false
-          }
-        ]
-      },
-      "cs": {
-        "question": "Co by měl řidič dělat při vstupu do tunelu",
-        "answers": [
-          {
-            "text": "Zapněte namočené světlomety.",
-            "correct": true
-          },
-          {
-            "text": "Zapněte si světlomety.",
-            "correct": false
-          },
-          {
-            "text": "Poslouchejte místní rádio.",
-            "correct": false
-          },
-          {
-            "text": "Zapněte vaše výstražná světla.",
-            "correct": false
-          }
-        ]
-      },
-      "en": {
-        "question": "What should a driver do when entering a tunnel",
-        "answers": [
-          {
-            "text": "Switch on dipped headlights.",
-            "correct": true
-          },
-          {
-            "text": "Switch on your headlights.",
-            "correct": false
-          },
-          {
-            "text": "Listen to the local radio.",
-            "correct": false
-          },
-          {
-            "text": "Switch on your hazard warning lights.",
-            "correct": false
-          }
-        ]
-      }
-    },
-    "category": "all",
-    "picture": ""
-  },
-  {
     "id": 394,
     "translations": {
       "zh": {
@@ -80811,26 +80357,26 @@
     "id": 434,
     "translations": {
       "zh": {
-        "question": "当驾驶员看到左边的慢跑者时，该怎么办",
-        "answers": [
-          {
-            "text": "驾驶员应该发出喇叭声并闪烁它的灯，以警告他们的存在。",
-            "correct": false
-          },
-          {
-            "text": "期望他们搬进来，以便驾驶员可以通过。",
-            "correct": false
-          },
-          {
-            "text": "指示，使用镜子并超过允许足够的间隙。",
-            "correct": false
-          },
-          {
-            "text": "检查镜子，指示并超过慢跑者，使它们足够间隙。",
-            "correct": true
-          }
-        ]
-      },
+"question": "当驾驶员看到左侧前方慢跑者时，应该怎么做",
+"answers": [
+{
+"text": "驾驶员应该鸣笛并闪灯警告他们。",
+"correct": false
+},
+{
+"text": "预计他们会靠近，以便驾驶员能够超车。",
+"correct": false
+},
+{
+"text": "打转向灯，使用后视镜，留出足够空间超车。",
+"correct": false
+},
+{
+"text": "查看后视镜，打转向灯，留出足够空间超车。",
+"correct": true
+}
+]
+},
       "es": {
         "question": "¿Qué debe hacer un conductor cuando ve a los corredores por delante a la izquierda?",
         "answers": [

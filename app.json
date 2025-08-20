@@ -39,7 +39,7 @@
       "payments": {
         "createOrderUrl": "https://your-api.example.com/pay/create-order", 
         "checkStatusUrl": "https://your-api.example.com/pay/check-status",
-        "paypalMeUrl": "https://paypal.me/yourname/299" 
+        "paypalMeUrl": "https://paypal.me/minli777" 
       }
     },
     "plugins": [

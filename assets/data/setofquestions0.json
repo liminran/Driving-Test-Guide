@@ -3187,7 +3187,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -3696,7 +3696,7 @@
               "correct": true
             },
             {
-              "text": "伪造的",
+              "text": "假的",
               "correct": false
             }
           ]
@@ -3980,7 +3980,7 @@
               "correct": false
             },
             {
-              "text": "伪造的",
+              "text": "假的",
               "correct": true
             }
           ]
@@ -4039,7 +4039,7 @@
               "correct": true
             },
             {
-              "text": "伪造的",
+              "text": "假的",
               "correct": false
             }
           ]
@@ -4173,7 +4173,7 @@
               "correct": true
             },
             {
-              "text": "伪造的",
+              "text": "假的",
               "correct": false
             }
           ]
@@ -5200,7 +5200,7 @@
       "id": 72,
       "translations": {
         "zh": {
-          "question": "初学者的状况全部持续了多少",
+          "question": "初学者的状态能持续多久",
           "answers": [
             {
               "text": "2年，仅在21岁以下的儿童中。",
@@ -5507,7 +5507,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -6766,7 +6766,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -6900,7 +6900,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -8309,7 +8309,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -9343,7 +9343,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -9620,14 +9620,14 @@
       "id": 132,
       "translations": {
         "zh": {
-          "question": "瞬态信号标志着道路或靠近区域的建筑和维护工作的执行：",
+          "question": "瞬态信号表示道路上或附近区域正在进行施工和维护工作？",
           "answers": [
             {
               "text": "真的。",
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的",
               "correct": false
             }
           ]
@@ -9686,7 +9686,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -10120,7 +10120,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -11604,7 +11604,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -12440,7 +12440,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -12642,18 +12642,18 @@
       "id": 174,
       "translations": {
         "zh": {
-          "question": "在以下情况下，谁是通过的优先事项",
+          "question": "以下情况下，谁有优先通行权",
           "answers": [
             {
-              "text": "去车。",
+              "text": "小轿车",
               "correct": false
             },
             {
-              "text": "到集体。",
+              "text": "大巴士",
               "correct": true
             },
             {
-              "text": "这是模糊的。",
+              "text": "不清楚",
               "correct": false
             }
           ]
@@ -12867,18 +12867,18 @@
       "id": 177,
       "translations": {
         "zh": {
-          "question": "谁在回旋处优先",
+          "question": "环岛内谁有优先通行权",
           "answers": [
             {
-              "text": "右边循环的车辆。",
+              "text": "右侧通行的车辆。",
               "correct": false
             },
             {
-              "text": "旨在进入回旋处的车辆。",
+              "text": "试图进入环岛的车辆。",
               "correct": false
             },
             {
-              "text": "圆形道路内的车辆。",
+              "text": "环岛内的车辆。",
               "correct": true
             }
           ]
@@ -13017,18 +13017,18 @@
       "id": 179,
       "translations": {
         "zh": {
-          "question": "一般而言，在双循环动脉中，具有明显的坡度，并且宽度不允许同时流通两辆车，它们具有优先通过",
+          "question": "一般来说，在双环路主干道上，如果坡度较大且宽度不允许两辆车同时通行，谁有优先通行权？",
           "answers": [
             {
-              "text": "下降的车辆。",
+              "text": "下行车辆。",
               "correct": false
             },
             {
-              "text": "上升的车辆。",
+              "text": "上行车辆。",
               "correct": true
             },
             {
-              "text": "没有优先事项，其中任何一个。",
+              "text": "没有优先通行权。",
               "correct": false
             }
           ]
@@ -13151,18 +13151,18 @@
       "id": 181,
       "translations": {
         "zh": {
-          "question": "什么时候应该从停放或从车库的地方提供希望加入交通的车辆的通道",
+          "question": "何时应允许车辆从其停车处或车库汇入交通？",
           "answers": [
             {
-              "text": "总是，无论如何找到车辆交通。",
+              "text": "始终允许，无论车辆交通状况如何。",
               "correct": false
             },
             {
-              "text": "当流量因任何原因中断时。",
+              "text": "当交通因任何原因中断时。",
               "correct": true
             },
             {
-              "text": "无论发现如何找到车辆交通，切勿。",
+              "text": "从不允许，无论车辆交通状况如何。",
               "correct": false
             }
           ]
@@ -13660,18 +13660,18 @@
       "id": 188,
       "translations": {
         "zh": {
-          "question": "在进步结束时，这是强制性的...",
+          "question": "在提前结束时，这是强制性的...",
           "answers": [
             {
-              "text": "不管交通的流动性如何，保持在繁忙的车道上。",
+              "text": "无论交通流量如何，都应保持在繁忙车道内。",
               "correct": false
             },
             {
-              "text": "添加到右车道上，如果它是免费的，逐渐，而不会阻碍交通流动性。",
+              "text": "如果右侧车道畅通，则应逐渐增加到右侧车道，且不影响交通流量。",
               "correct": true
             },
             {
-              "text": "加上右车道，尽管这意味着另一个车辆必须修改其速度。",
+              "text": "增加到右侧车道，尽管这意味着另一辆车必须调整速度。",
               "correct": false
             }
           ]
@@ -13817,7 +13817,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -13951,7 +13951,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -14003,14 +14003,14 @@
       "id": 193,
       "translations": {
         "zh": {
-          "question": "警告它将被超越，应该是您的态度",
+          "question": "警告即将超过该限速，您的态度应该如何？",
           "answers": [
             {
-              "text": "通过长凳循环。",
+              "text": "请在长凳上绕行。",
               "correct": false
             },
             {
-              "text": "在道路右侧循环并留下。在必要的情况下，降低速度。",
+              "text": "请在道路右侧绕行并保持行驶。如有必要，请减速。",
               "correct": true
             },
             {
@@ -14153,7 +14153,7 @@
       "id": 195,
       "translations": {
         "zh": {
-          "question": "当几辆车辆循环兜帽时，其中哪个有优先的克服",
+          "question": "当多辆带盖车辆循环行驶时，哪辆车辆有优先超越权？",
           "answers": [
             {
               "text": "首先尝试的人。",
@@ -14164,7 +14164,7 @@
               "correct": false
             },
             {
-              "text": "一个循环最接近的车辆的人。",
+              "text": "最靠近被超越车辆的车辆。",
               "correct": true
             }
           ]
@@ -14603,14 +14603,14 @@
       "id": 201,
       "translations": {
         "zh": {
-          "question": "通常，禁止车辆超出车辆",
+          "question": "一般来说，哪些地方禁止车辆超速",
           "answers": [
             {
-              "text": "车道划界的地方是连续中风。",
+              "text": "车道线为连续划线的地方。",
               "correct": false
             },
             {
-              "text": "在曲线，十字路口，水平或桥梁中。",
+              "text": "在弯道、十字路口、平交道或桥梁上。",
               "correct": false
             },
             {
@@ -15285,7 +15285,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -15344,7 +15344,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -15478,7 +15478,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -16137,7 +16137,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -16346,7 +16346,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -17664,7 +17664,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -17873,7 +17873,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -17932,7 +17932,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -18500,7 +18500,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -18784,7 +18784,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -18918,7 +18918,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -19202,7 +19202,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -19336,7 +19336,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -20295,7 +20295,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -20354,7 +20354,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -20713,7 +20713,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -20772,7 +20772,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -20824,18 +20824,18 @@
       "id": 288,
       "translations": {
         "zh": {
-          "question": "为了沿着布宜诺斯艾利斯市的一条街道在夜间流通，应该使用什么灯",
+          "question": "夜间在布宜诺斯艾利斯市的街道上行驶，应该使用什么灯？",
           "answers": [
             {
-              "text": "伤亡。",
+              "text": "伤亡人员。",
               "correct": true
             },
             {
-              "text": "高的。",
+              "text": "高处人员。",
               "correct": false
             },
             {
-              "text": "只有位置。",
+              "text": "仅限位置人员。",
               "correct": false
             }
           ]
@@ -21356,7 +21356,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -21617,18 +21617,18 @@
       "id": 299,
       "translations": {
         "zh": {
-          "question": "当一路上有水时，它必须降低速度以避免...",
+          "question": "当沿途有水时，它必须降低速度以避免……",
           "answers": [
             {
-              "text": "穿轮胎。",
+              "text": "磨损轮胎。",
               "correct": false
             },
             {
-              "text": "过热轮胎。",
+              "text": "轮胎过热。",
               "correct": false
             },
             {
-              "text": "水上乐。",
+              "text": "滑水。",
               "correct": true
             }
           ]
@@ -21999,7 +21999,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -22733,7 +22733,7 @@
               "correct": false
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": true
             }
           ]
@@ -22792,7 +22792,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
@@ -23451,7 +23451,7 @@
               "correct": true
             },
             {
-              "text": "伪造的。",
+              "text": "假的。",
               "correct": false
             }
           ]
