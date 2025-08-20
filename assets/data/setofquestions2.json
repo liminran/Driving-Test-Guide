@@ -275,27 +275,26 @@
   {
     "id": 4,
     "translations": {
-      "zh": {
-        "question": "这个标志是什么意思",
-        "answers": [
-          {
-            "text": "下一个出口两百米。",
-            "correct": true
-          },
-          {
-            "text": "向左尖锐的角。",
-            "correct": false
-          },
-          {
-            "text": "陡峭的攀登2公里。",
-            "correct": false
-          },
-          {
-            "text": "双通道越过。",
-            "correct": false
-          }
-        ]
-      },
+      "zh": {"question": "这个标志是什么意思",
+"answers": [
+{
+"text": "距离下一个出口还有200米。",
+"correct": true
+},
+{
+"text": "左侧急转弯。",
+"correct": false
+},
+{
+"text": "前方有2公里的陡坡。",
+"correct": false
+},
+{
+"text": "前方有双车道交叉口。",
+"correct": false
+}
+]
+},
       "es": {
         "question": "What does this sign mean",
         "answers": [
